@@ -6,7 +6,7 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand" to="/complete-labor">
         Complete Labor Services
       </Link>
       <div>
@@ -17,9 +17,9 @@ function Navbar() {
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <Link
-                to="/"
+                to="/complete-labor"
                 className={
-                  window.location.pathname === "/" || window.location.pathname === "/about"
+                  window.location.pathname === "/complete-labor" || window.location.pathname === "/complete-labor-about"
                     ? "nav-link active"
                     : "nav-link"
                 }
@@ -29,16 +29,16 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/work"
-                className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
+                to="/complete-labor-work"
+                className={window.location.pathname === "/complete-labor-work" ? "nav-link active" : "nav-link"}
               >
                 Previous Work
             </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/faq"
-                className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
+                to="/complete-labor-faq"
+                className={window.location.pathname === "/complete-labor-faq" ? "nav-link active" : "nav-link"}
               >
                 FAQ
             </Link>

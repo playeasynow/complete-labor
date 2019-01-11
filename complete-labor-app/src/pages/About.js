@@ -15,7 +15,7 @@ function About() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h2><b>Construction and Remodeling Services</b></h2>
+            <h2><b>Construction and Remodel</b></h2>
             <hr></hr>
           </Col>
         </Row>
